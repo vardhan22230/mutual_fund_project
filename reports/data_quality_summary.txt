@@ -1,0 +1,15 @@
+Day 1 Data Quality Summary
+
+1. Successfully loaded all 10 datasets.
+
+2. Date columns such as launch_date, date, month, transaction_date and portfolio_date are stored as object datatype and require datetime conversion.
+
+3. Missing values observed in yoy_growth_pct column of monthly SIP inflows dataset.
+
+4. NAV history dataset contains 46,000 records and may require optimization during analysis.
+
+5. AMFI scheme codes appear across multiple datasets and can be used for joins.
+
+6. No file loading errors encountered.
+
+7. Data types are generally consistent with business requirements.
